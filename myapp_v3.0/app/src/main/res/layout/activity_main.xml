@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/slow"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="WELCOME!"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="day2. 热搜榜"
+        android:textSize="30dp"
+        android:textColor="#FFFFF0"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:text="day3.animation"
+        android:textSize="30dp"
+        android:textColor="#FFFFF0"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:text="Day3.viewpage"
+        android:textSize="30dp"
+        android:textColor="#FFFFF0"
+        android:textAlignment="center" />
+
+
+
+
+
+</LinearLayout>
